@@ -636,6 +636,8 @@ footer {
   transform: translate(-50%, -50%) scale(0.9);
   width: 90%;
   max-width: 450px;
+  max-height: 90vh;
+  overflow-y: auto;
   background-color: var(--surface-color);
   z-index: 1000;
   border-radius: 8px;
